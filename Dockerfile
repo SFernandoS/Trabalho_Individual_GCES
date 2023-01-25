@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 ENV PYTHONPATH "${PYTHONPATH}:/"
 
-# CMD ["python", "-c", "main.py"]
+CMD ["python", "src/main.py"]
