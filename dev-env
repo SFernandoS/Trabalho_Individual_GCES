@@ -1,4 +1,0 @@
-MONGO_USER=lappis
-MONGO_PASSWORD=lappis
-MONGO_DB=dados-db
-MONGO_HOST=mongo

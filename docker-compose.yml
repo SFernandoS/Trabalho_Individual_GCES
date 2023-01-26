@@ -1,37 +1,53 @@
-version: '3.5'
+version: '3.9'
 services:
     dados-db:
         container_name: dados-db
-        restart: always
-        image: mongo
+        image: mongo:4.4.3-bionic
         ports:
-            - 5431:5432
-        env_file: dev-env
+            - 27017:27017
+        env_file: .env
+        command: --auth
         networks:
             - dados-network
         volumes:
-            - dados-mg-data:/var/lib/mongo/data
+            - dados_data:/data/db
 
-    dados-api:
-        container_name: dados-api
-        restart: always
-        build:
-            context: .
-            dockerfile: Dockerfile
-        env_file: dev-env
+    dados-import:
+        image: mongo:4.4.3-bionic
+        command: mongoimport --authenticationDatabase=admin -u lappis -p lappis 
+                --host dados-db --db vaccination --collection testCollection
+                --type csv --file /data/vaccination.csv --headerline
+        depends_on:
+            - dados-db
+        networks:
+            - dados-network
+        volumes:
+            - .:/data
+
+    meta:
+        image: metabase/metabase:latest
+        container_name: meta
         ports:
             - 3000:3000
         networks:
-          - dados-network
-        volumes:
-            - .:/dados-network
-            - pip_cache:/usr/local/lib/python3.10/site-packages
+            - dados-network
         depends_on:
             - dados-db
 
+    dados-app:
+        container_name: dados-app
+        build:
+            context: .
+            dockerfile: Dockerfile
+        networks:
+          - dados-network
+        depends_on:
+            - dados-db
+            - meta
+
 volumes:
-    dados-mg-data: {}
-    pip_cache:
+    dados_data:
+        driver: local
 
 networks:
   dados-network:
