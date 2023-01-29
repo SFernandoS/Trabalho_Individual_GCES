@@ -5,7 +5,9 @@ services:
         image: mongo:4.4.3-bionic
         ports:
             - 27017:27017
-        env_file: .env
+        environment:
+            "MONGO_INITDB_ROOT_USERNAME": ${MONGO_USERNAME}
+            "MONGO_INITDB_ROOT_PASSWORD": ${MONGO_PASSWORD}
         command: --auth
         networks:
             - dados-network
@@ -14,7 +16,7 @@ services:
 
     dados-import:
         image: mongo:4.4.3-bionic
-        command: mongoimport --authenticationDatabase=admin -u lappis -p lappis 
+        command: mongoimport --authenticationDatabase=admin -u lappis -p lappis
                 --host dados-db --db vaccination --collection testCollection
                 --type csv --file /data/vaccination.csv --headerline
         depends_on:
