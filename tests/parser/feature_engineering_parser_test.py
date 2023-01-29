@@ -1,5 +1,5 @@
 import pytest
-from src.parser.feature_engineering_parser import (
+from ...src.parser.feature_engineering_parser import (
     FeatureEngineeringParser,
 )
 

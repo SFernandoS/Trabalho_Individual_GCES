@@ -1,5 +1,5 @@
 import pytest
-from src.parser.model_parser import ModelParser
+from ...src.parser.model_parser import ModelParser
 
 
 @pytest.mark.parametrize(

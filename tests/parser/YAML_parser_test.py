@@ -1,5 +1,5 @@
 import pytest
-from src.parser.YAML_parser import YAMLParser
+from ...src.parser.YAML_parser import YAMLParser
 
 # Test data
 valid_yaml = """

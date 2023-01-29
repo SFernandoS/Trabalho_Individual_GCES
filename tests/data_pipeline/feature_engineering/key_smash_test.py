@@ -1,5 +1,5 @@
 import pytest
-from src.data_pipeline.feature_engineering.key_smash import KeySmash
+from ....src.data_pipeline.feature_engineering.key_smash import KeySmash
 
 
 @pytest.mark.parametrize("text, expected", [

@@ -1,7 +1,7 @@
 import pytest
 from whatlies.language import BytePairLanguage
 import numpy as np
-from src.data_pipeline.feature_engineering.word_embedding import WordEmbedding
+from ....src.data_pipeline.feature_engineering.word_embedding import WordEmbedding
 
 
 @pytest.mark.parametrize("lang, dimensions", [

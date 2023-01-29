@@ -1,5 +1,5 @@
 import pytest
-from src.parser.parser_base import ParserBase
+from ...src.parser.parser_base import ParserBase
 
 
 @pytest.fixture
