@@ -32,7 +32,7 @@ jobs:
             meta
             dados-app
       
-  lint:
+  lint-and-unit-tests:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
