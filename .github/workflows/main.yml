@@ -71,4 +71,4 @@ jobs:
         uses: JRubics/poetry-publish@v1.16
         with:
           python_version: "3.8"
-          pypi_token: ${{ secrets.PYPI_TOKEN }}
+          pypi_token: pypi-AgEIcHlwaS5vcmcCJDIxMTY5ZGY3LTg5ODAtNDI4YS04MzEyLTEzZGFiYjMzMzRmMgACKlszLCIyMjcwZTU1MS0wNGVjLTQ5ZDgtODg0MC1hNjA4Y2JhMDg5ZGEiXQAABiA269u3wWxQebQfylIXIilCdvVITOLT5F6TK4NkqG_fGA
