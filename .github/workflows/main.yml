@@ -47,7 +47,8 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: PYTHONPATH
       run: |
-        export PYTHONPATH=/home/runner/work/Trabalho_Individual_GCES/Trabalho_Individual_GCES
+        export PYTHONPATH=/home/runner/work/Trabalho_Individual_GCES
+        set PYTHONPATH
     - name: Lint with flake8
       run: |
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
