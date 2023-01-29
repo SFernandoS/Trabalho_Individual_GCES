@@ -68,7 +68,7 @@ jobs:
         run: |
           poetry version patch
           echo poetry version
-      - name: Pypi
+      - name: pypi
         uses: JRubics/poetry-publish@v1.16
         with:
           python_version: "3.8"
