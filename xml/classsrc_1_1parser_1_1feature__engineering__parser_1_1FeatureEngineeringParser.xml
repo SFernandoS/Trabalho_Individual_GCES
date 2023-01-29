@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser" kind="class" language="Python" prot="public">
+    <compoundname>src::parser::feature_engineering_parser::FeatureEngineeringParser</compoundname>
+    <basecompoundref refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase" prot="public" virt="non-virtual">ParserBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a78e368c4f73492063d47b40497996ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def parse</definition>
+        <argsstring>(self, list data)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/feature_engineering_parser.py" line="5" column="1" bodyfile="src/parser/feature_engineering_parser.py" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a1734cafedb6fb2afc3fa557181ec0014" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _get_dataframe</definition>
+        <argsstring>(self, dict columns)</argsstring>
+        <name>_get_dataframe</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>columns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/feature_engineering_parser.py" line="39" column="1" bodyfile="src/parser/feature_engineering_parser.py" bodystart="39" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a74dc665fe34460887f50f9ad43a88af8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _get_features_details</definition>
+        <argsstring>(self, dict features)</argsstring>
+        <name>_get_features_details</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>features</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/feature_engineering_parser.py" line="50" column="1" bodyfile="src/parser/feature_engineering_parser.py" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1afb0366e4b616539cdc77784f359963ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _get_keyboard_smash_config</definition>
+        <argsstring>(self, dict features)</argsstring>
+        <name>_get_keyboard_smash_config</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>features</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/feature_engineering_parser.py" line="80" column="1" bodyfile="src/parser/feature_engineering_parser.py" bodystart="80" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a5339251780aad043a49c421c4b123bd7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _get_word_embedding_config</definition>
+        <argsstring>(self, dict feature, list columns_alias)</argsstring>
+        <name>_get_word_embedding_config</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>feature</declname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>columns_alias</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/feature_engineering_parser.py" line="60" column="1" bodyfile="src/parser/feature_engineering_parser.py" bodystart="60" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a87dbe6bcc78c4bc4530eb86a43754721" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _parse_feature_engineering_configs</definition>
+        <argsstring>(self, list data)</argsstring>
+        <name>_parse_feature_engineering_configs</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/feature_engineering_parser.py" line="8" column="1" bodyfile="src/parser/feature_engineering_parser.py" bodystart="8" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ParserBase</label>
+        <link refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase"/>
+      </node>
+      <node id="1">
+        <label>FeatureEngineeringParser</label>
+        <link refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ParserBase</label>
+        <link refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase"/>
+      </node>
+      <node id="1">
+        <label>FeatureEngineeringParser</label>
+        <link refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/parser/feature_engineering_parser.py" line="3" column="1" bodyfile="src/parser/feature_engineering_parser.py" bodystart="3" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ac0aac6776633e4d561dd4ed0f61f5d56" prot="public" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>__init__</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a1734cafedb6fb2afc3fa557181ec0014" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_dataframe</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a74dc665fe34460887f50f9ad43a88af8" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_features_details</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1afb0366e4b616539cdc77784f359963ce" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_keyboard_smash_config</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a5339251780aad043a49c421c4b123bd7" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_word_embedding_config</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a87dbe6bcc78c4bc4530eb86a43754721" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_parse_feature_engineering_configs</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a03d872533f5f6255a26b393857fd90e9" prot="public" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>filepath</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a78e368c4f73492063d47b40497996ee4" prot="public" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>parse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

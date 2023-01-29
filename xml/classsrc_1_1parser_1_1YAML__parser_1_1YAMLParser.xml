@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classsrc_1_1parser_1_1YAML__parser_1_1YAMLParser" kind="class" language="Python" prot="public">
+    <compoundname>src::parser::YAML_parser::YAMLParser</compoundname>
+    <basecompoundref refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase" prot="public" virt="non-virtual">ParserBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1YAML__parser_1_1YAMLParser_1aed1b33c03102a60d1b12f3ec96850149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def parse</definition>
+        <argsstring>(self)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/YAML_parser.py" line="7" column="1" bodyfile="src/parser/YAML_parser.py" bodystart="7" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1YAML__parser_1_1YAMLParser_1a9ead6d88227c0741c0649de5fe403825" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _parse_yaml</definition>
+        <argsstring>(self)</argsstring>
+        <name>_parse_yaml</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/YAML_parser.py" line="10" column="1" bodyfile="src/parser/YAML_parser.py" bodystart="10" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ParserBase</label>
+        <link refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase"/>
+      </node>
+      <node id="1">
+        <label>YAMLParser</label>
+        <link refid="classsrc_1_1parser_1_1YAML__parser_1_1YAMLParser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ParserBase</label>
+        <link refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase"/>
+      </node>
+      <node id="1">
+        <label>YAMLParser</label>
+        <link refid="classsrc_1_1parser_1_1YAML__parser_1_1YAMLParser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/parser/YAML_parser.py" line="5" column="1" bodyfile="src/parser/YAML_parser.py" bodystart="5" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ac0aac6776633e4d561dd4ed0f61f5d56" prot="public" virt="non-virtual"><scope>src::parser::YAML_parser::YAMLParser</scope><name>__init__</name></member>
+      <member refid="classsrc_1_1parser_1_1YAML__parser_1_1YAMLParser_1a9ead6d88227c0741c0649de5fe403825" prot="private" virt="non-virtual"><scope>src::parser::YAML_parser::YAMLParser</scope><name>_parse_yaml</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a03d872533f5f6255a26b393857fd90e9" prot="public" virt="non-virtual"><scope>src::parser::YAML_parser::YAMLParser</scope><name>filepath</name></member>
+      <member refid="classsrc_1_1parser_1_1YAML__parser_1_1YAMLParser_1aed1b33c03102a60d1b12f3ec96850149" prot="public" virt="non-virtual"><scope>src::parser::YAML_parser::YAMLParser</scope><name>parse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
