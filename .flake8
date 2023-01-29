@@ -1,3 +1,4 @@
 [flake8]
 exclude = .git, pycache, data, db, dist, xml, venv, html, metabase
 max-line-length = 127
+extend-ignore = E722

@@ -3,6 +3,7 @@ from whatlies.language import BytePairLanguage
 import numpy as np
 from src.data_pipeline.feature_engineering.word_embedding import WordEmbedding
 
+
 @pytest.mark.parametrize("lang, dimensions", [
     ("en", 25),
     ("es", 50),
@@ -13,6 +14,7 @@ def test_word_embedding_init(lang, dimensions):
     assert isinstance(we.bpl, BytePairLanguage)
     assert we.bpl.lang == lang
     assert we.bpl.dim == dimensions
+
 
 @pytest.mark.parametrize("text, expected_shape", [
     ("This is a text", (50,)),

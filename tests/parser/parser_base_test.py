@@ -1,9 +1,11 @@
 import pytest
 from src.parser.parser_base import ParserBase
 
+
 @pytest.fixture
 def parser():
     return ParserBase()
+
 
 @pytest.mark.parametrize("variable, field, expected_output", [
     ({'field1': 'value1'}, 'field1', 'value1'),
@@ -19,6 +21,7 @@ def test_try_get(parser, variable, field, expected_output):
             parser._try_get(variable, field)
     else:
         assert parser._try_get(variable, field) == expected_output
+
 
 @pytest.mark.parametrize("variable, field, default_value, expected_output", [
     ({'field1': 'value1'}, 'field1', 'default', 'value1'),
