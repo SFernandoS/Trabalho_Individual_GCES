@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "trabalho_individual_de_gces"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Fernando Vargas <nandovargas7@gmail.com>"]
 readme = "README.md"
