@@ -16,5 +16,5 @@ class ParserBase():
     def _get(self, variable: dict, field, default_value):
         try:
             return variable[field]
-        except variable[field]:
+        except:
             return default_value
