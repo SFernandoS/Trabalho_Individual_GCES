@@ -52,6 +52,12 @@ jobs:
     - name: Tests
       run: |
         pytest
+    - name: Documentacao
+      run: |
+        apt-get install doxygen
+        pip install Sphinx
+        make html
+  
   deploy:
     runs-on: ubuntu-latest
     steps:
