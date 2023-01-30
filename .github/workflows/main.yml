@@ -54,7 +54,6 @@ jobs:
         pytest
     - name: Documentacao
       run: |
-        curl -sSL https://github.com/sass/dart-sass/releases/download/1.49.7/dart-sass-1.49.7-linux-x64.tar.gz | tar -xzvf - --strip-components=1 -C ~/.local/bin dart-sass/sass
         sudo apt-get install doxygen
         pip install Sphinx
         pip install sphinxcontrib-doxylink
