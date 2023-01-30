@@ -54,7 +54,7 @@ jobs:
         pytest
     - name: Documentacao
       run: |
-        apt-get install doxygen
+        sudo apt-get install doxygen
         pip install Sphinx
         make html
   
