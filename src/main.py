@@ -39,6 +39,3 @@ def get_config():
         print(20*'-')
         print(3*'\n')
         print(model_configs)
-
-
-get_config()
