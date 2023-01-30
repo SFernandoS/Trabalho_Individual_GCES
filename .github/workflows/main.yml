@@ -57,6 +57,7 @@ jobs:
         sudo apt-get install doxygen
         pip install Sphinx
         pip install sphinxcontrib-doxylink
+        pip install doxysphinx
         make html
   
   deploy:
